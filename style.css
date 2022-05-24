@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style: none;
+  max-width: 1920px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  flex-wrap: wrap;
+  background-color: #FFFFFF;
+  /* position: fixed; */
+  max-width: 1920px;
+  width: 100%;
+}
+
+header .portflow {
+  width: 550px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+
+
+}
+
+header ul li {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  width: 90px;
+}
+
+header ul li:hover {
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.imgAzul {
+  width: 100%;
+  height: 450px;
+  position: absolute;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+h3:hover {
+  cursor: pointer;
+}
+
+.textoCapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px;
+  position: relative;
+  top: 200px;
+  left: 140px;
+  color: white;
+  font-family: 'Montserrat', sans-serif, ;
+
+}
