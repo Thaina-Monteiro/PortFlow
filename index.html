@@ -10,7 +10,15 @@
 </head>
 
 <body>
-  <header>
+  <!-- Header responsivo -->
+  <header id="topo" class="menuResponsivo">
+    <figure class="menu"><img class="fotoMenu" src="./imagens/menupreto.png" alt="menu"></figure>
+    <div class="portflowResponsivo">
+      <h2>PortFlow</h2>
+    </div>
+  </header>
+  <!-- Header não responsivo -->
+  <header class="header">
     <div class="portflow">
       <h2>PortFlow</h2>
     </div>
@@ -28,8 +36,17 @@
   </header>
 
   <main>
-    <section>
-      <figure>
+    <!-- Responsivo -->
+    <section class="sectionResp">
+      <figure> <img class="imgAzulrespond" src="./imagens/capaAzulresp.png" alt=""></figure>
+      <div class="textoCapaResp">
+        <h1 class="h1textoResp">Imagine, Discuta, Desenhe.</h1>
+        <h3 class="textoRespo">FALE CONOSCO</h3>
+      </div>
+    </section>
+    <section class="section">
+      <!-- não responsivo -->
+      <figure class="figure">
         <img class="imgAzul" src="./imagens/capa-azul.png" alt="">
       </figure>
       <div class="textoCapa">
@@ -38,20 +55,46 @@
       </div>
     </section>
     <section class="secondSection">
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
-      <figure><img src="" alt=""></figure>
+      <div class="boximg">
+        <figure><img src="./imagens/img1.png" alt="biscoito"></figure>
+        <figure><img src="./imagens/img2.png" alt="pão de queijo"></figure>
+        <figure><img src="./imagens/img3.png" alt="pote"></figure>
+        <figure><img src="./imagens/img4.png" alt="computador"></figure>
+        <figure><img src="./imagens/img5.png" alt="sorvete"></figure>
+        <figure><img src="./imagens/img6.png" alt="caneca"></figure>
+        <figure><img src="./imagens/img7.png" alt="computador"></figure>
+        <figure><img src="./imagens/img8.png" alt="biscoito"></figure>
+        <figure><img src="./imagens/img9.png" alt="celular"></figure>
+        <figure><img src="./imagens/img10.png" alt="tablet"></figure>
+        <figure><img src="./imagens/img11.png" alt="computador"></figure>
+        <figure><img src="./imagens/img12.png" alt="fotos"></figure>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <section class="mediaBox">
+      <figure class="media">
+        <img class="face" src="/imagens/face.png" alt="facebook">
+        <img class="twitter" src="/imagens/twitter.png" alt="twitter">
+        <img class="insta" src="/imagens/insta.png" alt="insta">
+        <img class="tele" src="/imagens/telegram.png" alt="telegram">
+        <img class="whats" src="/imagens/whats.png" alt="whatsapp">
+        <img class="you" src="/imagens/youtube.png" alt="youtube">
+      </figure>
+    </section>
+
+    <section class="copyri">
+      <p class="copy">Copyright</p>
+      <p class="textofo">Layout Produzido por <a class="textofo" href="https://github.com/Thaina-Monteiro" target="_blank">Thainá Monteiro</a> para fins educacionais - VnW</p>
+    </section>
+    <!-- responsivo -->
+    <div class="footerRes">
+      <a href="#topo" title="back header">
+        <button>Topo</button>
+      </a>
+    </div>
+  </footer>
 
   <footer></footer>
 

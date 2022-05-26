@@ -3,7 +3,8 @@
   padding: 0px;
   box-sizing: border-box;
   list-style: none;
-  max-width: 1920px;
+  text-decoration: none;
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Quintessential&display=swap');
@@ -18,12 +19,14 @@ header {
   flex-wrap: wrap;
   background-color: #FFFFFF;
   /* position: fixed; */
-  max-width: 1920px;
+  /* max-width: 1920px; */
   width: 100%;
+
 }
 
 header .portflow {
   width: 550px;
+
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -41,6 +44,8 @@ header ul li {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   width: 90px;
+
+
 }
 
 header ul li:hover {
@@ -52,7 +57,8 @@ header ul li:hover {
 .imgAzul {
   width: 100%;
   height: 450px;
-  position: absolute;
+  position: relative;
+
 }
 
 h1 {
@@ -62,21 +68,213 @@ h1 {
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+
 }
 
-h3:hover {
-  cursor: pointer;
-}
+
 
 .textoCapa {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 120px;
-  position: relative;
-  top: 200px;
-  left: 140px;
+  position: absolute;
+  top: 270px;
+  left: 120px;
+  width: 80%;
   color: white;
   font-family: 'Montserrat', sans-serif, ;
+
+
+}
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px 40px 0px;
+}
+
+.boximg {
+  display: flex;
+  width: 1100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.boximg img {
+  width: 250px;
+  margin: 5px;
+}
+
+.boximg img:hover {
+  border: solid #0080D1;
+  width: 260x;
+}
+
+footer {
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.copyri {
+  display: flex;
+  justify-content: space-evenly;
+  width: 650px;
+  align-items: center;
+}
+
+.textofo {
+  color: gray;
+}
+
+.copy {
+  font-weight: 800;
+  font-size: 23px;
+}
+
+.media img {
+  margin: 10px;
+}
+
+.face {
+  width: 15px;
+}
+
+.twitter,
+.you {
+  width: 33px;
+}
+
+.insta,
+.tele {
+  width: 30px;
+}
+
+.whats {
+  width: 30px;
+}
+
+
+
+@media (min-width: 600px) {
+  .menuResponsivo {
+    display: none;
+  }
+
+  .sectionResp {
+    display: none;
+  }
+
+  .footerRes {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: none;
+  }
+
+  .menuResponsivo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+  }
+
+  .fotoMenu {
+    width: 58px;
+    height: 49px;
+    margin: 0px 15px 0px 8px;
+    cursor: pointer;
+
+
+  }
+
+
+  .figure {
+    display: none;
+  }
+
+  .section {
+    display: none;
+  }
+
+  .sectionResp {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+
+  .imgAzulrespond {
+    width: 100%;
+
+  }
+
+  .textoCapaResp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 300px;
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    width: 400px;
+    color: white;
+    font-family: 'Montserrat', sans-serif, ;
+  }
+
+  .h1textoResp {
+    font-size: 60px;
+  }
+
+
+
+
+  footer {
+    flex-wrap: wrap;
+  }
+
+  footer figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  .mediaBox {
+    width: 88%;
+    background-color: #7FDBD4;
+  }
+
+  .copyri {
+    margin: 10px;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 66%;
+
+  }
+
+  button {
+    width: 55px;
+    background-color: #333333;
+    color: white;
+    cursor: pointer;
+  }
+
+  a button {
+    font-family: 'Montserrat', sans-serif;
+    padding: 8px 10px;
+
+  }
+
+  .boximg {
+    width: 400px;
+  }
+
 
 }
