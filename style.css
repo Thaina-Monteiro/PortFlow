@@ -65,9 +65,12 @@ h1 {
   font-size: 58px;
 }
 
-h3 {
+.textoCapa a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 100;
+  color: #FFFFFF;
+  font-size: 25px;
+  width: 220px;
 
 }
 
@@ -157,6 +160,10 @@ footer {
   width: 30px;
 }
 
+footer img:hover {
+  cursor: pointer;
+}
+
 
 
 @media (min-width: 600px) {
@@ -234,7 +241,13 @@ footer {
     font-size: 60px;
   }
 
-
+  .textoCapaResp a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #FFFFFF;
+    font-size: 25px;
+    width: 220px;
+  }
 
 
   footer {
@@ -276,5 +289,8 @@ footer {
     width: 400px;
   }
 
+  footer img:hover {
+    cursor: pointer;
+  }
 
 }
