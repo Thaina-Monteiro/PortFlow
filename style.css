@@ -108,6 +108,7 @@ h1 {
 .boximg img {
   width: 250px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .boximg img:hover {
@@ -220,6 +221,7 @@ footer img:hover {
 
   .imgAzulrespond {
     width: 100%;
+    max-width: 1920px;
 
   }
 
@@ -252,6 +254,8 @@ footer img:hover {
 
   footer {
     flex-wrap: wrap;
+    width: 100%;
+    max-width: 1920px;
   }
 
   footer figure {
@@ -260,8 +264,10 @@ footer img:hover {
   }
 
   .mediaBox {
-    width: 88%;
+
     background-color: #7FDBD4;
+    width: 100%;
+    max-width: 1920px;
   }
 
   .copyri {
